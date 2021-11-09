@@ -4,11 +4,19 @@
     background-color: #7cbf40;
 }
 
+....................................................................Heading*/
 
 header {
     margin: 0;
 }
 
-h1 {
-    text-transform: capitalize;
+body {
+    font-family: "Oswald" sans-serif;
+    color: #fff;
+}
+
+.logo {
+   position: relative;
+   margin: 30px, 50px;
+   padding-right: 20%;
 }
