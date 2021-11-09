@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+/*..................................................................Colours*/
+
 .bg-color-name {
     background-color: #7cbf40;
+    color: inherit
 }
 
-....................................................................Heading*/
+/*....................................................................Heading*/
 
 header {
     margin: 0;
@@ -15,8 +19,22 @@ body {
     color: #fff;
 }
 
-.logo {
-   position: relative;
-   margin: 30px, 50px;
-   padding-right: 20%;
+#logo {
+    position: relative;
+    left: 5%;
 }
+ 
+
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 5px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 35px;
+    margin-top: 10%;
+    color:inherit;
+}
+
