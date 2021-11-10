@@ -5,18 +5,27 @@
 
 .bg-color-name {
     background-color: #7cbf40;
-    color: inherit
+    margin-bottom: 30px;
 }
 
+a {
+    color:#fff;
+}
 /*....................................................................Heading*/
+
+
+body {
+    font-family: "Exo" sans-serif;
+    color: #fff;
+}
+
 
 header {
     margin: 0;
 }
 
-body {
-    font-family: "Oswald" sans-serif;
-    color: #fff;
+#logo, #menu {
+    line-height: 30px;
 }
 
 #logo {
@@ -24,17 +33,78 @@ body {
     left: 5%;
 }
  
+a {
+    text-decoration: none;
+}
 
 #menu {
+    position: relative;
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 5px;
+    font-family: "Oswald" , sans-serif;
 }
 
 #menu li {
     float: right;
     margin-right: 35px;
     margin-top: 10%;
-    color:inherit;
 }
 
+#menu li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/*...............................................................................Section-Run*/
+
+#run-image {
+    background: url("../image/run.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:650px;
+    width: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+    animation-name: run-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+
+#run-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes run-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+#cover-text {
+    color: #fff;
+    font-size: 130%;
+    font-family: "Oswald" , sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 350px;
+    height: 250px;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(rgb(104, 112, 114));
+
+    bottom: 40px;
+}
