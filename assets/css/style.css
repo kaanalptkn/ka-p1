@@ -45,7 +45,11 @@ header {
 
 #logo {
     position: relative;
-    left: 5%;
+    left: 2%;
+}
+
+#logo h4 {
+    display: inline;
 }
  
 a {
@@ -65,7 +69,7 @@ a {
 #menu li {
     float: right;
     margin-right: 35px;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 #menu li:hover {
@@ -244,6 +248,7 @@ div.col {
 .social-networks li {
     display: inline;
 }
+
 
 .social-networks i {
     font-size: 100%;
