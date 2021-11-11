@@ -115,9 +115,6 @@ a {
 
 
 
-
-
-
 #cover-text {
     font-size: 20px;
     font-family: "Oswald" , sans-serif;
@@ -224,6 +221,42 @@ hr {
     -webkit-transition: all .5s ease-in-out;
 }
 
+
+#about {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 15px;
+    margin-inline-end: 35%;
+}
+
+table {
+    letter-spacing: 1px;
+    text-align: center;
+    margin:20px;
+    background-color: azure;
+    width:75%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid black; 
+}
+
+thead {
+    text-transform: uppercase;
+}
+
+.subject {
+    font-size: 14pt;
+    margin-bottom:5px;
+    color:rgb(36, 37, 37);
+    background-color:#557e72 ;
+  }
+
+  .time {
+        font-size: 12pt;
+        font-style: italic;
+        color:rgb(36, 37, 37);
+  }
 /*...............................................................................Footer*/
 
 footer {
