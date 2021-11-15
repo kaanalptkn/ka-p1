@@ -39,8 +39,13 @@ header {
     margin: 0;
 }
 
+#col-6 {
+    flex: 0 0 auto;
+    width:100%;
+}
+
 #logo, #menu {
-    line-height: 30px;
+    line-height: 40px;
 }
 
 #logo {
@@ -64,18 +69,27 @@ a {
     list-style-type: none;
     letter-spacing: 5px;
     font-family: "Oswald" , sans-serif;
+    margin-top: 6em;
+    padding-bottom: 20px;
 }
 
 #menu li {
     float: right;
-    margin-right: 35px;
-    margin-top: 5%;
+    margin-right: 30px;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
+
 
 #menu li:hover {
     border-bottom: 1px solid #fff;
 }
 
+.row {
+    margin-right: -10%;
+    margin-left: -20%;
+    padding-left: 5em;
+}
 /*...............................................................................Section 1-Run*/
 
 #run-image {
@@ -92,15 +106,18 @@ a {
     animation-name: run-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
+    margin-left: 1em;
 }
+
 
 
 #run-outer {
     height: 600px;
-    width: 100%;
+    width: 120%;
     overflow: hidden;
     position: relative;
+    margin-left: -12%;
+    margin-right: 0;
 }
 
 @keyframes run-zoom {
@@ -161,19 +178,26 @@ a {
     margin:0 auto;
 }
 
-hr {
-    border-top: 1px solid rgb(3, 3, 3);
-    width: 100%;
-    margin: 5px 0;
+#welcome {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 260%;
 }
 
-.left-side-heading {
+hr {
+    border-top: 1px solid rgb(3, 3, 3);
+    width: 80%;
+    margin-left: 40px;
+}
+
+#left-side-heading {
     width: 50%;
     float: right;
-    line-height: 20px;
+    line-height: 10px;
     clear: both;
     margin-bottom: 45px;
 }
+
 
 .center-text {
     width: 50%;
@@ -188,11 +212,7 @@ hr {
 }
 
 
-#welcome {
-    text-align: center;
-    margin: 25px 0;
-    font-size: 260%;
-}
+
 
 
 #circle-container {
@@ -257,6 +277,26 @@ thead {
         font-style: italic;
         color:rgb(36, 37, 37);
   }
+
+
+
+  .form-control {
+    display: block;
+    font-size: 1em;
+    width: 30%;
+    border: 1px solid rgb(36, 37, 37);
+}
+
+.form-floating>.form-control {
+    width: 50%;
+    height: 150px;
+}
+
+section {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 /*...............................................................................Footer*/
 
 footer {
@@ -297,3 +337,27 @@ ul {
 a {
     color:black;
 }
+
+footer p {
+    text-transform: initial;
+    margin-left: 20em;
+}
+
+
+
+/*...............................................................................Media query*/
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
