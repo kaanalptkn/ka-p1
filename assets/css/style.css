@@ -7,11 +7,13 @@
     background-color: #7cbf40;
     margin-bottom: 40px;
     padding-bottom: 40px;
+    align-items: center;
 }
 
 .bg-color-text-social {
     background-color: #7cbf40;
     padding-top: 20px;
+    align-items: center;
 }
 
 
@@ -48,10 +50,9 @@ li, a {
 
 .col-6 {
     margin-top: 2em;
-    width: 50%;
 }
 
-.logo, .menu {
+.logo, #menu {
     line-height: 40px;
 }
 
@@ -64,7 +65,7 @@ li, a {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     padding-left: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 90px;
 }
 
 
@@ -261,6 +262,10 @@ p > a {
     padding: 0px;
 }
 
+p {
+    color:rgb(0, 0, 0)
+}
+
 section {
     margin-bottom: 20px;
 }
@@ -273,10 +278,14 @@ footer {
     }
 
 
-.social-networks li {
-    display: inline;
+.social {
+    padding-bottom: 45px;
 }
 
+.social-networks {
+    align-self: center;
+    
+}
 
 .social-networks i {
     font-size: 100%;
@@ -287,30 +296,47 @@ footer {
 
 ul {
     margin-top: 4em;
-    margin-bottom: 1rem;
-    margin-left: 2em;
 }
+
 
 /*...............................................................................Media query*/
 
 
-// X-Small devices (portrait phones, less than 576px)
+
 @media (max-width: 575.98px) { ... }
 
-// Small devices (landscape phones, less than 768px)
+
 @media (max-width: 767.98px) { 
-    .comtainer {
-        padding: 0 15px;
+    
+
+    #about {
+        margin-inline-end: inherit;
     }
 
-// Medium devices (tablets, less than 992px)
+    #run-image {
+        height: 200px;
+        width: 100%;
+    }
+
+    #cover-text {
+        left: 0px;
+    }
+
+    [class*="col-md-4"] {
+        width:100%;
+    }
+}
+
+
+
+}
+
+
 @media (max-width: 991.98px) { ... }
 
-// Large devices (desktops, less than 1200px)
+
 @media (max-width: 1199.98px) { ... }
 
-// X-Large devices (large desktops, less than 1400px)
+
 @media (max-width: 1399.98px) { ... }
 
-// XX-Large devices (larger desktops)
-// No media query since the xxl breakpoint has no upper bound on its width
