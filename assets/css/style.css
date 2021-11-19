@@ -43,9 +43,13 @@ li, a {
     font-size: 20px;
     margin-top: 35px;
     text-transform: uppercase;
-    color: black;
+    color: rgba(0, 0, 0, 0.945);
     padding-left: 0;
 
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(52, 209, 105, 0.5);
 }
 
 .col-6 {
@@ -65,7 +69,7 @@ li, a {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     padding-left: 150px;
-    padding-bottom: 90px;
+    padding-bottom: 115px;
 }
 
 
@@ -82,7 +86,7 @@ li, a {
 
 li {
     float: left;
-    overflow: hidden;
+    list-style: none;
     text-transform: uppercase;
 }
 
@@ -114,7 +118,7 @@ li {
 #run-outer {
     height: 600px;
     width: 120%;
-    overflow: hidden;
+    list-style: none;
     position: relative;
     margin-left: -12%;
     margin-right: 0;
@@ -173,14 +177,16 @@ hr {
     margin-left: 0px;
 }
 
-
+h1 {
+    display: inline-block;
+}
 
 #circle-container {
     width: 400px;
     height: 400px;
     padding: 30px;
     border-style: solid;
-    border-color: thistle;
+    border-color: rgb(50, 180, 56);
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -202,7 +208,10 @@ hr {
 }
 
 #center {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #about {
@@ -220,7 +229,7 @@ table {
     background-color: azure;
     border-collapse: collapse;
     table-layout: fixed;
-    border: 1px solid black; 
+    border: 1px solid rgba(0, 0, 0, 0.945); 
     border-collapse: collapse;
 }
 
@@ -298,6 +307,9 @@ ul {
     margin-top: 4em;
 }
 
+a {
+    text-decoration: none;
+}
 
 /*...............................................................................Media query*/
 
@@ -308,6 +320,9 @@ ul {
 
 @media (max-width: 767.98px) { 
     
+    #welcome {
+        font-size: 180%;
+    }
 
     #about {
         margin-inline-end: inherit;
@@ -316,15 +331,57 @@ ul {
     #run-image {
         height: 200px;
         width: 100%;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    #run-outer
+    {
+        margin-bottom: -4em;
+        padding-top: 11em;
+        width: 100%;
     }
 
     #cover-text {
-        left: 0px;
+        left: -30px;
+        right: 30px;
     }
 
-    [class*="col-md-4"] {
-        width:100%;
+    #cover-text ul {
+        font-size: 16px;
     }
+
+    /* #center {
+        margin-left: 50px;
+    } */
+
+    #circle-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    ul {
+        margin-top: 2em;
+        }
+
+    li {
+        padding: 7px;
+    }
+
+    
+    .bg-color-text-social {
+        font-size: 12px;
+    }
+
+    .bg-color-title-name {
+        font-size: 14px;
+        margin-bottom: -14em;
+    }
+    .social {
+        padding-bottom: 2px;
+    }
+
+
 }
 
 
