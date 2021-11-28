@@ -19,17 +19,23 @@
 
 /*....................................................................Heading*/
 
-
 body {
     font-family: "Exo" , sans-serif;
     height: 100%;
+    overflow-x: hidden;
 }
+
 
 
 header {
     margin: 0;
     height: unset;
     background-color: #7cbf40;
+}
+
+.header-right {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 li, a {
@@ -49,7 +55,7 @@ li, a {
 }
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(52, 209, 105, 0.5);
+    background: rgba(130, 202, 68, 0.5);
 }
 
 .col-6 {
@@ -61,7 +67,7 @@ li, a {
 }
 
 .logo {
-    background: url("../image/logo.png");
+    background: url("../image/logo.webp");
     background-position: left;
     background-repeat: no-repeat;
     background-size: auto;
@@ -98,7 +104,7 @@ li {
 /*...............................................................................Section 1-Run*/
 
 #run-image {
-    background: url("../image/run.jpg");
+    background: url("../image/run.webp");
     background-repeat:no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,7 +117,7 @@ li {
     animation-name: run-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    margin-left: 1em;
+    margin-left: 0;
 }
 
 
@@ -120,7 +126,7 @@ li {
     width: 120%;
     list-style: none;
     position: relative;
-    margin-left: -12%;
+    margin-left: 0;
     margin-right: 0;
 }
 
@@ -167,8 +173,8 @@ li {
 
 #welcome {
     text-align: center;
-    margin: 25px 0;
-    font-size: 260%;
+    margin: 100px 0;
+    font-size: 230%;
 }
 
 hr {
@@ -193,7 +199,7 @@ h1 {
 }
 
 #bg-circle-cover {
-    background: url("../image/man-smile.jpg");
+    background: url("../image/man-smile.webp");
     background-repeat:no-repeat;
     background-position: right;
     background-size: cover;
@@ -214,7 +220,7 @@ h1 {
     justify-content: center;
 }
 
-#about {
+.about {
     display: block;
     margin-block-start: 2em;
     margin-block-end: 2em;
@@ -275,9 +281,44 @@ p {
     color:rgb(0, 0, 0)
 }
 
+a.contact {
+    color: #152923;
+    font-weight: bold;
+}
+
+.form-control {
+    display: block;
+    font-size: 1em;
+    width: 30%;
+    border: 1px solid rgb(36, 37, 37);
+    margin: 10px;
+}
+
+.join-button {
+    margin: 10px;
+}
+
 section {
     margin-bottom: 20px;
 }
+
+.lessons1, 
+.lessons2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    background-color: azure;
+}
+
+h5  
+ {
+    color:rgb(36, 37, 37);
+    background-color:#557e72;
+}
+
 
 /*...............................................................................Footer*/
 
@@ -310,12 +351,24 @@ ul {
 a {
     text-decoration: none;
 }
+/*...............................................................................About-photos*/
+img, svg {
+    vertical-align: middle;
+    width: 100%;
+    clear: both;
+    column-gap: unset;
+}
+
+.photos {
+    width: 100%;
+    --bs-gutter-x: 0;
+}
 
 /*...............................................................................Media query*/
 
 
 
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) { }
 
 
 @media (max-width: 767.98px) { 
@@ -327,20 +380,24 @@ a {
         margin-bottom: 40px;
         }
 
-        
+     .logo {
+        padding-left: 175px;
+     }   
     #welcome {
-        font-size: 180%;
+            font-size: 180%;
+            margin-top: -5rem;
+            margin-bottom: 20px;
     }
 
-    #about {
+    .about {
         margin-inline-end: inherit;
     }
 
     #run-image {
         height: 200px;
         width: 100%;
-        margin-top: 40px;
-        margin-left: 35px;
+        margin-top: -10em;
+        margin-left: 0;
     }
 
     #run-outer
@@ -352,12 +409,17 @@ a {
 
     #cover-text {
         left: 0px;
-        margin-left: 40px;
+        margin-left: 0;
     }
 
     #cover-text ul {
         font-size: 16px;
-        margin-left: -45px;
+        margin-left: 0;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-bottom: 10em;
+        width:300px;
+        left: 0;
     }
 
     /* #center {
@@ -374,12 +436,12 @@ a {
         }
 
     li {
-        padding: 7px;
+        padding-top: 8px;
+        padding-bottom: 4px;
+        padding-left: 5px;
+        padding-right: 0;
     }
 
-    .col-12 {
-        width:85%;
-    }
     
     .bg-color-text-social {
         font-size: 12px;
@@ -397,18 +459,24 @@ a {
         width: 200%;
     }
 
+    .lessons1, 
+.lessons2 {
+    width: 110%;
+}
+
+.form-floating>.form-control {
+    width: 80%;
+    height: 150px;
+}
+
 }
 
 
 
-}
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) { }
 
 
-@media (max-width: 991.98px) { ... }
-
-
-@media (max-width: 1199.98px) { ... }
-
-
-@media (max-width: 1399.98px) { ... }
+@media (max-width: 1399.98px) { }
 
