@@ -368,10 +368,14 @@ img, svg {
 
 
 
-@media (max-width: 575.98px) { }
+@media only screen 
+and (max-width: 575.98px)
+and (-webkit-min-device-pixel-ratio: 2) { }
 
 
-@media (max-width: 767.98px) { 
+@media only screen 
+and (max-width: 767.98px)
+and (-webkit-min-device-pixel-ratio: 2) { 
     
 
     header {
@@ -479,4 +483,20 @@ img, svg {
 
 
 @media (max-width: 1399.98px) { }
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    body > section:first-of-type { 
+        margin-top: 200px;
+    }
+
+  }
+  
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */ 
+  }
+  
+  .iOS-device {
+    nav: yada;
+}
 
