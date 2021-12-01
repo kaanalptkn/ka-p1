@@ -14,12 +14,12 @@ This project is for educational purposes and can not be used as a template for a
 - [UX](#ux)
    - [Website owner business goals](#Website-owner-business-goals)
    - [User goals](#User-goals)
-       - [New user goals](new-user-goals)
-       - [Returning user goals](Returning-user-goals)
+       - [New user goals](#New-user-goals)
+       - [Returning user goals](#Returning-user-goals)
        - [Website owner business goals](#Website-owner-business-goals)
    - [User stories](#User-stories)
        - [As a business owner](#As-a-business-owner)
-       - [As a new user](As-a-new-user)
+       - [As a new user](#As-a-new-user)
        - [As a returning customer](#As-a-returning-customer)
    - [Structure of the website](#Structure-of-the-website)
    - [Wireframes](#Wireframes)
@@ -145,11 +145,11 @@ The website has below features:
 
 ## Timetable 
 
-* Customers can find classes times here. Also information abut lessons. 
+* Customers can find classes times here. Also information about lessons. 
 
 ## Footer
 
-* Footer is consistent on all pages. It has contact details on left side, copyright in the middle  and social links on right side. Each link will open in a separate tab in a browser.
+* Footer is consistent on all pages. It has contact details on the left side, copyright in the middle  and social links on the right side. Each link will open in a separate tab in a browser.
 
 ## Home
 
@@ -163,7 +163,7 @@ The website has below features:
 
 * ### Paragraph section
 
-  * In this part has three columns, first one short paragraph, basically explaning how we work and what benefit will get user, middle column is motivation slogans and right side is a man picture and seems happy man to be in gym. 
+  * In this part has three columns, first one short paragraph, basically explaining how we work and what benefit will get user, middle column is motivation slogans and right side is a man picture and seems happy man to be in the gym. 
 
 ## About
 
@@ -171,15 +171,15 @@ The website has below features:
 
 ## Classes
 
-* This section provide classes time-tables with lessons, time and there is an explanation what exactly about the classes. Also what you need to bring with.
+* This section provides classes time-tables with lessons, time and there is an explanation what exactly about the classes. Also what do you need to bring with you.
 
 ## Contact
 
-* Contact form is a main part on this site. User can contact by filling a form with interesting topic. Also our full address with contact number apperaed.  Below a form there is a map with location of a fitness studio.
+* Contact form is a main part of this site. Users can contact by filling a form with an interesting topic. Also our full address with contact number appeared.  Below a form there is a map with location of a fitness club.
 
 ## Future implementations
 
-* Create gym package  offer.
+* Create a gym package  offer.
 * Add new site with class descriptions.
 * Fitness advises. Ideas and nutrition.
 * 24 hours gym online lessons
@@ -188,7 +188,7 @@ The website has below features:
 
 ___
 
-# Technologies used
+# Technologies
 
 ### HTML
 
@@ -200,11 +200,11 @@ ___
 
 ### Bootstrap
 
-* Bootstrap@5.1.3 as a CSS framework to keep responsive, media queries, tables an form.
+* Bootstrap@5.1.3 as a CSS framework to keep responsive, media queries, tables and form.
 
 ### Font Awesome
 
-* As an icon library for main page slogans and a social links.
+* As an icon library for main page slogans and social links.
 
 ### Google fonts
 
@@ -212,11 +212,11 @@ ___
 
 ### GitHub
 
-* It is a software hosting platform and  for keep the project remote location.
+* It is a software hosting platform and  for keeping the project remote location.
 
 ### Git
 
-* As a ibformation tracker on version control system.
+* As an information tracker on the version control system.
 
 ### Gitpod
 
@@ -244,9 +244,9 @@ For testing and solving problems with responsiveness and style issues I used Goo
 
 ## Compatibility testing
 
-My website been tested with multiple mobile devices and browsers. I've tested all extention  devices in both Mozilla web developer tolls and Chrome developer tools. 
+My website has been tested with multiple mobile devices and browsers. I've tested extention  devices in both Mozilla web developer tolls and Chrome developer tools. 
  
-Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone 12 and Samsung Galaxy S10, S20, Galaxy S21. 
+Also, I tested on hardware devices such as iPhone 6, iPhone 7, iPhone 11, iPhone 12, and Samsung Galaxy S10, S20, Galaxy S21.  
 
 ## User stories testing
 
@@ -263,7 +263,7 @@ Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone
 - I would like to connect with a relationship with potential and current customers.
     > All social media links are on the bottom of each page. Alternatively, they can just call us, fill the form or send an email. 
 
-### As a new cutsomer
+### As a new customer
 
 - I need to join classes 
   > There is all information about classes on the classes section on the webpage.
@@ -285,7 +285,7 @@ Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone
 - I wish to have a new diet plan with my workout.
  > Users can call us, send an email, alternatively they can contact us over social media. 
 
-- I would like to start with grpup session, it is encaurge me.
+- I would like to start with a group session, it encourages me.
  > Members could get information about classes through the website on the Classes section. 
  ___
 
@@ -295,21 +295,21 @@ Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone
 
  ![bug1.png](testing/bug1.png)
 
- My table wasn't right on mobile view. Then I added  class="overflow-x: auto; to my "div" element on html,  I sorted, I made is scroll, which is looks fantastic on my mobile view.
+  My table wasn't right on mobile view. Then I added class="overflow-x: auto; to my "div" element on HTML, I sorted, I made is scroll, which looks fantastic on my mobile view.
 
 
 #### Safari (IPhone) view was wrond.
 
 ![bug2.png](testing/bug2.png)
 
-My safari (IPhone view) was wrong. I checked on iPhone 6, iPhone 7, iPhone 11, iPhone 12 and all of them have had a same issue. My hero picture (run.jpg) was on the header. You couldn't see navigation on header. I. used [stackoverfelow.com](https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices) I added below elemnt on my css. 
+My safari (iPhone view) was wrong. I checked on iPhone 6, iPhone 7, iPhone 11, iPhone 12, and all of them have had the same issue. My hero picture (run.jpg) was on the header. You couldn't see navigation on the header. I. used [stackoverfelow.com](https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices) I added the below element on my CSS. 
 
 ![bug3.png]{testing/bug3.png}
 
 
 ## Performance testing
 
-I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performace testing. I found it very handy and useful. I found a some issue and fixed. It was images size big I made resize, also I had a wrong value on my  html "meta" element, user-scalable=no I just removed.
+I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performance testing. I found it very handy and useful. I found some issues and fixed them. It was images size big I made resize, also I had a wrong value on my HTML "meta" element, user-scalable=no I just removed.
 
 ![performance.jpg](testing/performance.jpg)
 
