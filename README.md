@@ -2,12 +2,12 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Mockup](md_images/mockup.webp)
+![Mockup](md_images/mockup.jpg)
 Website presents The Power Gym as a fitness club, personal training, classes and nutritions. Users will be able to find interesting content in easy and simple way.
 
 This project is for educational purposes and can not be used as a template for a business use. Main aim is to build responsive website with HTML and CSS only. I will use Bootstrap framework to keep website consent and clear.
 
-## [View life website in github pages]( https://kaanalptkn.github.io/milestone-project-kaan/)
+## [View life website in github pages](https://kaanalptkn.github.io/ka-p1/)
 
 # Table of Contents
 
@@ -75,7 +75,7 @@ The website is designed to be simple and user-friendly on all types of devices. 
 
 I used this website Balsamiq to create  wireframes.
 
-![Wireframes](md_images/wireframes.webp)
+![Wireframes](md_images/wireframes.jpg)
 
 ## Surface
 
@@ -268,7 +268,7 @@ Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone
 
  ![bug1.png](testing/bug1.png)
 
- My table wasn't right on mobile view. Then I added <div class="overflow-x: auto;"> on html,  I sorted, I made is scroll, which is looks fantastic on my mobile view.
+ My table wasn't right on mobile view. Then I added  class="overflow-x: auto; to my "div" element on html,  I sorted, I made is scroll, which is looks fantastic on my mobile view.
 
 
 #### Safari (IPhone) view was wrond.
@@ -284,12 +284,129 @@ My safari (IPhone view) was wrong. I checked on iPhone 6, iPhone 7, iPhone 11, i
 
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performace testing. I found it very handy and useful. I found a some issue and fixed. It was images size big I made resize, also I had a wrong value on my  html "meta" element, user-scalable=no I just removed.
 
-[performance.jpg](testing/performance.jpg)
+![performance.jpg](testing/performance.jpg)
 
-#### Final result"
-
-[performance.jpg](testing/performance.jpg)
+### Final result:
 
 
+![performance-last.jpg](testing/performance-last.jpg)
+
+## Code validation
+
+* [W3C HTML validator](https://validator.w3.org/)
+* [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
 
 
+[Back to Table of contents](#table-of-contents)
+
+___
+
+# Deployment
+
+My project was deployed on GitHub Pages. I used Gitpod as a development occasion,  I commit all changes to git version control system. 
+I used push command in Gitpod to save all my changes into GitHub.
+
+To deploy a project I used the following instructions:
+
+1. Log in to GitHub and open the repository to deploy ([KA-P1](https://kaanalptkn.github.io/ka-p1/))
+2. Select `Settings`(on the right side, not top of the page) and then from right side of the menu find  "Pages" section at the very bottom of the page
+3.  Select the `main` branch as the source.
+4.  click `save` and page was deployed after auto-refresh.
+>  Your site is published at https://kaanalptkn.github.io/ka-p1/
+
+To run localy:
+1. Log in to GitHub and click on repository to download ([KA-P1](https://kaanalptkn.github.io/ka-p1/))
+2. Select `Code` and click Download the ZIP file.
+3. When download you can extract the file and use it in your local environment 
+
+Alternatively, you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([KA-P1](https://kaanalptkn.github.io/ka-p1/)) into your github account.
+
+[Back to Table of contents](#table-of-contents)
+
+___
+
+# Credits
+
+# Code
+
+* Bootstrap [Grid](https://getbootstrap.com/docs/5.0/layout/grid/)
+* Bootstrap [Column](https://getbootstrap.com/docs/5.0/layout/columns/)
+* Bootstrap [Gutters](https://getbootstrap.com/docs/5.0/layout/gutters/)
+* Bootstrap [Form](https://getbootstrap.com/docs/5.0/forms/form-control/)
+* Bootstrap [Select](https://getbootstrap.com/docs/5.0/forms/select/)
+* W3 Schools [Responsive table](https://www.w3schools.com/howto/howto_css_table_responsive.asp)
+* 101 Computing [Table](https://www.101computing.net/my-timetable-in-html-css/)
+
+### Content
+
+* General content [Nuffield Health](https://www.nuffieldhealth.com/)
+
+### Map
+
+[Google maps](https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2467.415801467523!2d-0.07422538423630705!3d51.79856264719357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48762692ba358909%3A0x5c2ac80d1693a156!2sHertford%20SG14%201QA!5e0!3m2!1sen!2suk!4v1636712652016!5m2!1sen!2suk)
+
+### Media
+
+#### Image
+
+##### [Pixel.com](https://www.pexels.com/)
+
+* [William Choquette-an-on-treadmill](https://www.pexels.com/photo/an-on-treadmill-1954524/)
+
+* [Andrea Piacquadio-man-in-black-tank-top-holding-orange-towel](https://www.pexels.com/photo/man-in-black-tank-top-holding-orange-towel-3917685/)
+
+##### [Unsplash.com](https://unsplash.com/)
+
+* [Ryan Snaadt-battle-rope](https://unsplash.com/photos/3NKKbXhpcaY) 
+
+* [Damir Spanic-man-with-towel](https://unsplash.com/photos/rHDK3UU7HUw)
+
+* [Bruce Mars-set-up](https://unsplash.com/photos/HHXdPG_eTIQ)
+
+* [Bruce Mars-gJtDg6WfMlQ](https://unsplash.com/photos/gJtDg6WfMlQ)
+
+* [Nathan Dumlao-personal-trainer](https://unsplash.com/photos/NXMZxygMw8o)
+
+* [Madison lavern-namaste](https://unsplash.com/photos/4gcqRf3-f2I)
+
+* [Carl Barcelo-a-woman-doing-a-yoga-pose](https://unsplash.com/photos/nqUHQkuVj3c)
+
+* [Anastase Maragos-bodybuilder-and-online-coach](https://unsplash.com/photos/fG0p4Qh_aWI)
+
+* [Bruce Mars-dumbell](https://unsplash.com/photos/jY-GlbKeTDs)
+
+##### Logo 
+
+* I created my logo on [Free Logo Design](https://www.freelogodesign.org/share/62ff1ae5b742479e8f1c71644ba4c312)
+
+[Back to Table of contents](#table-of-contents)
+
+___
+
+# Screenhots
+
+## Project screenshots:
+
+![Home-1](md_images/screenshots/1.png)
+
+![Home-2](md_images/screenshots/2.png)
+
+![About-1](md_images/screenshots/3.png)
+
+![About-2](md_images/screenshots/4.png)
+
+![About-3](md_images/screenshots/5.png)
+
+![Classes-1](md_images/screensots/6.png)
+
+![Classes-2](md_images/screenshots/7.png)
+
+![Contact-1](md_images/screenshots/8.png)
+
+![Contact-2](md_images/screenshots/9.png)
+
+[Back to Table of contents](#table-of-contents)
+
+___
