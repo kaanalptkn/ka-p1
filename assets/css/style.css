@@ -143,7 +143,6 @@ li {
 
 
 #cover-text, #cover-text ul {
-    font-size: 18px;
     font-family: "Oswald" , sans-serif;
     text-transform: capitalize;
     letter-spacing: 5px;
@@ -294,6 +293,12 @@ a.contact {
     margin: 10px;
 }
 
+form>h4 {
+    color: rgb(8, 8, 8);
+    background-color: #7cbf40;
+    width: 180px;
+}
+
 .join-button {
     margin: 10px;
 }
@@ -417,12 +422,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     #cover-text ul {
-        font-size: 16px;
         margin-left: 0;
         padding-top: 1em;
         padding-bottom: 1em;
-        margin-bottom: 10em;
-        width:300px;
+        margin-bottom: 7em;
+        width:380px;
         left: 0;
     }
 
@@ -471,6 +475,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .form-floating>.form-control {
     width: 80%;
     height: 150px;
+}
+
+iframe {
+    width: 100%;
 }
 
 }
