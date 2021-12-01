@@ -195,7 +195,6 @@ ___
 
 * As a development hosting platform.
 
-
 ### Balsamiq
 
 * As a wireframe tool.
@@ -265,7 +264,31 @@ Also I tested on hardware devices such as: Iphone 6, Iphone 7, Iphone 11, Iphone
 
  ## Issues found during site development
 
- 
+ #### Table element on "About" section
+
+ ![bug1.png](testing/bug1.png)
+
+ My table wasn't right on mobile view. Then I added <div class="overflow-x: auto;"> on html,  I sorted, I made is scroll, which is looks fantastic on my mobile view.
+
+
+#### Safari (IPhone) view was wrond.
+
+![bug2.png](testing/bug2.png)
+
+My safari (IPhone view) was wrong. I checked on iPhone 6, iPhone 7, iPhone 11, iPhone 12 and all of them have had a same issue. My hero picture (run.jpg) was on the header. You couldn't see navigation on header. I. used [stackoverfelow.com](https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices) I added below elemnt on my css. 
+
+![bug3.png]{testing/bug3.png}
+
+
+## Performance testing
+
+I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) for performace testing. I found it very handy and useful. I found a some issue and fixed. It was images size big I made resize, also I had a wrong value on my  html "meta" element, user-scalable=no I just removed.
+
+[performance.jpg](testing/performance.jpg)
+
+#### Final result"
+
+[performance.jpg](testing/performance.jpg)
 
 
 
