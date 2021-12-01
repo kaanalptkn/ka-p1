@@ -11,8 +11,35 @@ This project is for educational purposes and can not be used as a template for a
 
 # Table of Contents
 
-[UX](#ux)
-"COME BACK FOR CONTENTS"
+- [UX](#ux)
+   - [Website owner business goals](#Website-owner-business-goals)
+   - [User goals](#User-goals)
+      - [New user goals](New-user-goals)
+      - [Returning user goals](Returning-user-goals)
+      - [Website owner business goals](#Website-owner-business-goals)
+   - [User stories](#User-stories)
+      - [As a business owner](#As-a-business-owner)
+      - [As a new user](As-a-new-user)
+      - [As a returning customer](#As-a-returning-customer)
+   - [Structure of the website](#Structure-of-the-website)
+   - [Wireframes](#Wireframes)
+   - [Surface](#Surface)
+      - [Colors](#Colors)
+      - [Fonts](#Fonts)
+      - [Images](#Images)
+-  [Fetures](#Fetures)
+-  [Technologies](#Technologies)
+-  [Testing](#Testing)
+   - [Functionality testing](#functionality-testing)
+   - [Compatibility testing](#compatibility-testing)
+   - [Code Validation](#code-validation)
+   - [User stories testing](#user-stories-testing)
+   - [Issues found during site development](#issues-found-during-site-development)
+   - [Performance testing](#performance-testing)
+-  [Deployment](#deployment)
+- [Credits](#Credits)
+- [Screenshots](#screenshots)
+
 
 # UX 
 
@@ -107,7 +134,7 @@ The website has below features:
 
 * #### Navigation bar is visible on the top of each website. It is responsive and will adapt to mobile devices by a change into a burger menu.
 
-## Navigation scheme:
+* Navigation scheme:
 
  * On left side there is a logo. It can be used as navigation link to the main page.
  * On right side there are four links or nav menu. It contains:
