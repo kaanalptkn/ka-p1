@@ -5,8 +5,8 @@
 
 .bg-color-title-name {
     background-color: #7cbf40;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     align-items: center;
 }
 
@@ -20,7 +20,7 @@
 /*....................................................................Heading*/
 
 body {
-    font-family: "Exo" , sans-serif;
+    font-family: "Exo", sans-serif;
     height: 100%;
     overflow-x: hidden;
 }
@@ -38,14 +38,15 @@ header {
     padding-right: 0;
 }
 
-li, a {
-    color:black;
+li,
+a {
+    color: black;
     padding: 20px;
     line-height: 0.5;
 }
 
 
-.title  {
+.title {
     font-size: 20px;
     margin-top: 35px;
     text-transform: uppercase;
@@ -62,7 +63,8 @@ li, a {
     margin-top: 2em;
 }
 
-.logo, #menu {
+.logo,
+#menu {
     line-height: 40px;
 }
 
@@ -84,7 +86,7 @@ li, a {
     font-size: 120%;
     list-style-type: none;
     letter-spacing: 5px;
-    font-family: "Oswald" , sans-serif;
+    font-family: "Oswald", sans-serif;
     margin-top: 5em;
     margin-right: -1em;
     padding-bottom: 35px;
@@ -105,10 +107,10 @@ li {
 
 #run-image {
     background: url("../image/run.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:650px;
+    height: 650px;
     width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -128,10 +130,11 @@ li {
     position: relative;
     margin-left: 0;
     margin-right: 0;
+    padding-top: 40px;
 }
 
 @keyframes run-zoom {
-    from{
+    from {
         transform: scale(1);
     }
 
@@ -142,22 +145,18 @@ li {
 
 
 
-#cover-text, #cover-text ul {
-    font-family: "Oswald" , sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 5px;
-    width: 350px;
+ #cover-text, #cover-text ul {
+        font-family: "Oswald", sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 3px;
+        width: 350px;
+        
+        background-color: rgb(178, 241, 220, 0.5);
+        bottom: -50px;
+        
+        position: absolute;
+    }
 
-    padding-left: 5px;
-
-    background-color: rgb(178, 241, 220, 0.5);
-    
-
-    bottom: 10px;
-    left: 50px;
-
-    position: absolute;
-}
 
 
 
@@ -169,11 +168,16 @@ li {
 }
 
 
-
 #welcome {
     text-align: center;
     margin: 100px 0;
     font-size: 230%;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.reason-text {
+    padding-top: 2em;
 }
 
 hr {
@@ -199,10 +203,10 @@ h1 {
 
 #bg-circle-cover {
     background: url("../image/man-smile.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
     margin: 0 auto;
@@ -230,11 +234,11 @@ h1 {
 table {
     letter-spacing: 1px;
     text-align: center;
-    margin:20px;
+    margin: 20px;
     background-color: azure;
     border-collapse: collapse;
     table-layout: fixed;
-    border: 1px solid rgba(0, 0, 0, 0.945); 
+    border: 1px solid rgba(0, 0, 0, 0.945);
     border-collapse: collapse;
 }
 
@@ -245,22 +249,26 @@ thead {
 
 .subject {
     font-size: 14pt;
-    margin-bottom:5px;
-    color:rgb(36, 37, 37);
-    background-color:#557e72 ;
-  }
+    margin-bottom: 5px;
+    color: rgb(36, 37, 37);
+    background-color: #557e72;
+}
 
-  .time {
-        font-size: 12pt;
-        font-style: italic;
-        color:rgb(36, 37, 37);
-  }
+.time {
+    font-size: 12pt;
+    font-style: italic;
+    color: rgb(36, 37, 37);
+}
 
 #info {
     padding: 0px;
 }
 
-  .form-control {
+.info {
+    margin-top: 20px;
+}
+
+.form-control {
     display: block;
     font-size: 1em;
     width: 30%;
@@ -272,12 +280,12 @@ thead {
     height: 150px;
 }
 
-p > a {
+p>a {
     padding: 0px;
 }
 
 p {
-    color:rgb(0, 0, 0)
+    color: rgb(0, 0, 0)
 }
 
 a.contact {
@@ -307,7 +315,7 @@ section {
     margin-bottom: 20px;
 }
 
-.lessons1, 
+.lessons1,
 .lessons2 {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -318,19 +326,18 @@ section {
     background-color: azure;
 }
 
-h5  
- {
-    color:rgb(36, 37, 37);
-    background-color:#557e72;
+h5 {
+    color: rgb(36, 37, 37);
+    background-color: #557e72;
 }
 
 
 /*...............................................................................Footer*/
 
 footer {
-     height: unset;
-     background-color: #7cbf40;
-    }
+    height: unset;
+    background-color: #7cbf40;
+}
 
 
 .social {
@@ -339,7 +346,7 @@ footer {
 
 .social-networks {
     align-self: center;
-    
+
 }
 
 .social-networks i {
@@ -356,8 +363,10 @@ ul {
 a {
     text-decoration: none;
 }
+
 /*...............................................................................About-photos*/
-img, svg {
+img,
+svg {
     vertical-align: middle;
     width: 100%;
     clear: both;
@@ -373,29 +382,26 @@ img, svg {
 
 
 
-@media only screen 
-and (max-width: 575.98px)
-and (-webkit-min-device-pixel-ratio: 2) { }
+@media only screen and (max-width: 575.98px) and (-webkit-min-device-pixel-ratio: 2) {}
 
 
-@media only screen 
-and (max-width: 767.98px)
-and (-webkit-min-device-pixel-ratio: 2) { 
-    
+@media only screen and (max-width: 767.98px) and (-webkit-min-device-pixel-ratio: 2) {
+
 
     header {
         background-color: #7cbf40;
         min-height: 200px;
         margin-bottom: 40px;
-        }
+    }
 
-     .logo {
+    .logo {
         padding-left: 175px;
-     }   
+    }
+
     #welcome {
-            font-size: 180%;
-            margin-top: -5rem;
-            margin-bottom: 20px;
+        font-size: 180%;
+        margin-top: -5rem;
+        margin-bottom: 20px;
     }
 
     .about {
@@ -407,10 +413,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 100%;
         margin-top: -10em;
         margin-left: 0;
+        margin-right: 15px;
     }
 
-    #run-outer
-    {
+
+    #run-outer {
         margin-bottom: -4em;
         padding-top: 11em;
         width: 100%;
@@ -423,11 +430,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     #cover-text ul {
         margin-left: 0;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        margin-bottom: 7em;
-        width:380px;
+        margin-bottom: 5em;
+        width: 300px;
         left: 0;
+        font-size: 3.8vw;
+        font-size: 0.5vh;
+        font-size: clamp(2.5em, 5vw, 3rem);
     }
 
     /* #center {
@@ -441,7 +449,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     ul {
         margin-top: 2em;
-        }
+    }
 
     li {
         padding-top: 8px;
@@ -450,7 +458,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         padding-right: 0;
     }
 
-    
+
     .bg-color-text-social {
         font-size: 12px;
     }
@@ -459,6 +467,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 12px;
         margin-bottom: -14em;
     }
+
     .social {
         padding-bottom: 2px;
     }
@@ -467,19 +476,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
         width: 200%;
     }
 
-    .lessons1, 
-.lessons2 {
-    width: 110%;
-}
+    .lessons1,
+    .lessons2 {
+        width: 110%;
+    }
 
-.form-floating>.form-control {
-    width: 80%;
-    height: 150px;
-}
+    .form-floating>.form-control {
+        width: 80%;
+        height: 150px;
+    }
 
-iframe {
-    width: 100%;
-}
+    iframe {
+        width: 100%;
+    }
 
 }
 
@@ -487,21 +496,20 @@ iframe {
 
 @media (max-width: 991.98px) {}
 
-@media (max-width: 1199.98px) { }
+@media (max-width: 1199.98px) {}
 
 
-@media (max-width: 1399.98px) { }
+@media (max-width: 1399.98px) {}
 
 @supports (-webkit-touch-callout: none) {
-    /* CSS specific to iOS devices */ 
-    body > section:first-of-type { 
+
+    /* CSS specific to iOS devices */
+    body>section:first-of-type {
         margin-top: 200px;
     }
 
-  }
-  
-  @supports not (-webkit-touch-callout: none) {
-    /* CSS for other than iOS devices */ 
-  }
-  
+}
 
+@supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
+}

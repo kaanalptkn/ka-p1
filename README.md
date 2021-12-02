@@ -30,7 +30,7 @@ This project is for educational purposes and can not be used as a template for a
 -  [Fetures](#Fetures)
 -  [Technologies](#Technologies)
 -  [Testing](#Testing)
-   - [Functionality testing](#functionality-testing)
+   - [Functional testing](#Functional-testing)ß
    - [Compatibility testing](#compatibility-testing)
    - [Code Validation](#code-validation)
    - [User stories testing](#user-stories-testing)
@@ -38,7 +38,7 @@ This project is for educational purposes and can not be used as a template for a
    - [Performance testing](#performance-testing)
 -  [Deployment](#deployment)
 - [Credits](#Credits)
-- [Screenshots](#screenshots)
+- [Screenhots](#Screenhots)
 
 
 # UX 
