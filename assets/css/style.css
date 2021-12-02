@@ -145,17 +145,18 @@ li {
 
 
 
- #cover-text, #cover-text ul {
-        font-family: "Oswald", sans-serif;
-        text-transform: capitalize;
-        letter-spacing: 3px;
-        width: 350px;
-        
-        background-color: rgb(178, 241, 220, 0.5);
-        bottom: -50px;
-        
-        position: absolute;
-    }
+#cover-text,
+#cover-text ul {
+    font-family: "Oswald", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    width: 350px;
+
+    background-color: rgb(178, 241, 220, 0.5);
+    bottom: -50px;
+
+    position: absolute;
+}
 
 
 
@@ -280,6 +281,10 @@ thead {
     height: 150px;
 }
 
+label {
+    margin: 10px;
+}
+
 p>a {
     padding: 0px;
 }
@@ -305,6 +310,7 @@ form>h4 {
     color: rgb(8, 8, 8);
     background-color: #7cbf40;
     width: 180px;
+    text-align: center;
 }
 
 .join-button {
@@ -506,6 +512,10 @@ svg {
     /* CSS specific to iOS devices */
     body>section:first-of-type {
         margin-top: 200px;
+    }
+
+    body>footer:left {
+        display: -webkit-inline-box;
     }
 
 }
