@@ -115,7 +115,7 @@ Main colours used in a project:
 * hoover color: #ff9000
 
 ### Fonts
-* As a main font I used Exo and Oswald, and as a backup font sans-serif
+* I generally used Exo for the body, I used Oswald for the "menu" and "cover-text" fields. The reason why I chose these fonts is that my page is more tidy and does not tire the eyes while looking at my page. 
 
 ### Images
 * I used images from [Pixel.com](https://www.pexels.com/), [Unsplash.com](https://unsplash.com/) and there are credited in [credits](#credits) section.
@@ -200,23 +200,23 @@ ___
 
 ### Bootstrap
 
-* Bootstrap@5.1.3 as a CSS framework to keep responsive, media queries, tables and form.
+* Bootstrap@5.1.3 as a CSS framework to keep responsive, media queries, tables, grids, columns, form and styling of my website.
 
 ### Font Awesome
 
-* As an icon library for main page slogans and social links.
+* I used Font Awesome on all pages throughout the website to add icons for aesthetic and UX purposes.
 
 ### Google fonts
 
-* As a font generator
+* Google fonts were as a font generator to import the "Exo" and "Oswald" font into the style.css file which is used on all pages throughout the project.
 
 ### GitHub
 
-* It is a software hosting platform and  for keeping the project remote location.
+* Github used as a software hosting platform and  for keeping the project remote location.
 
 ### Git
 
-* As an information tracker on the version control system.
+* Git was used as an information tracker on the version control  by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 ### Gitpod
 
@@ -224,11 +224,11 @@ ___
 
 ### Balsamiq
 
-* As a wireframe tool.
+* Balsamiq was used to creat the [wireframes](#wireframes) tool during the design process.
 
 ### Freelogo Design
 
-* As a design logo
+* Freelogo Design used to creat logo for the company.
 
 [Back to Table of contents](#table-of-contents)
 
@@ -238,7 +238,7 @@ ___
 
 ## Functional testing
 
-For testing and solving problems with responsiveness and style issues I used Google Chrome developer tools and Mozilla web developer tools.
+I used the Google Chrome developer tools and Mozilla web developer tools to test and fix issues with responsiveness and styling issues. In the style.css file, both tools made it extremely easy for me to use margin, padding, font, width, height and other elements correctly use on my web page.
 
 [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) was very handy and it helped me a lot when I built my website. 
 
@@ -295,7 +295,7 @@ Also, I tested on hardware devices such as iPhone 6, iPhone 7, iPhone 11, iPhone
 
  ![bug1.png](testing/bug1.png)
 
-  My table wasn't right on mobile view. Then I added class="overflow-x: auto; to my "div" element on HTML, I sorted, I made is scroll, which looks fantastic on my mobile view.
+  In the mobile view, half of my table was not visible, the writings were not legible, the distance from the right and left sides was not correctly separated. Then I added class="overflow-x: auto; to my "div" element on HTML, I sorted, I made is scroll, which looks fantastic on my mobile view.
 
 
 #### Safari (IPhone) view was wrond.
@@ -414,25 +414,71 @@ ___
 
 # Screenhots
 
-## Project screenshots:
+## Project screenshots on desktop view and some mobile view:
+
+### Main Page on Google Chrome browser
 
 ![Home-1](md_images/screenshots/1.png)
 
+### Main Page on Google Chrome browser
+
 ![Home-2](md_images/screenshots/2.png)
+
+### About Page on Google Chrome browser
 
 ![About-1](md_images/screenshots/3.png)
 
+### About Page on Google Chrome browser
+
 ![About-2](md_images/screenshots/4.png)
+
+### About Page on Google Chrome browser
 
 ![About-3](md_images/screenshots/5.png)
 
-![Classes-1](md_images/screensots/6.png)
+### Classes Page on Google Chrome browser
+
+![Classes-1](md_images/screenshots/6.png)
+
+### Classes Page on Google Chrome browser
 
 ![Classes-2](md_images/screenshots/7.png)
 
+### Contact Page on Google Chrome browser
+
 ![Contact-1](md_images/screenshots/8.png)
 
+### Contact Page on Google Chrome browser
+
 ![Contact-2](md_images/screenshots/9.png)
+
+### Home Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Home-1](md_images/screenshots/m1.PNG)
+
+### Home Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Home-2](md_images/screenshots/m3.PNG)
+
+### About Page on iPhone 12 (iOS 15.1.1 browser)
+
+![About](md_images/screenshots/m4..PNG)
+
+### Classes Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Classes](md_images/screenshots/m4.PNG)
+
+### Classes Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Classes](md_images/screenshots/m5.PNG)
+
+### Contact Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Contact](md_images/screenshots/m6.PNG)
+
+### Contact Page on iPhone 12 (iOS 15.1.1 browser)
+
+![Contact](md_images/screenshots/m7.PNG)
 
 [Back to Table of contents](#table-of-contents)
 
