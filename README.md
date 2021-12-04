@@ -30,7 +30,7 @@ This project is for educational purposes and can not be used as a template for a
 -  [Fetures](#Fetures)
 -  [Technologies](#Technologies)
 -  [Testing](#Testing)
-   - [Functional testing](#Functional-testing)ß
+   - [Functional testing](#Functional-testing)
    - [Compatibility testing](#compatibility-testing)
    - [Code Validation](#code-validation)
    - [User stories testing](#user-stories-testing)
@@ -102,7 +102,7 @@ The website is designed to be simple and user-friendly on all types of devices. 
 
 I used this website Balsamiq to create  wireframes.
 
-![Wireframes](md_images/wireframes.jpg)
+![Wireframes](md_images/wireframes.png)
 
 ## Surface
 
