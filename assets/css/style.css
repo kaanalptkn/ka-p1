@@ -502,7 +502,29 @@ svg {
 
 @media (max-width: 991.98px) {}
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    /* for iPad view */
+
+    #run-outer {
+        width: 95%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .form-floating>.form-control {
+        width: 80%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
 
 
 @media (max-width: 1399.98px) {}
