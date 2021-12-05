@@ -454,31 +454,31 @@ ___
 
 ### Home Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Home-1](md_images/screenshots/m1.PNG)
+![Home-1](md_images/screenshots/m1.png)
 
 ### Home Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Home-2](md_images/screenshots/m3.PNG)
+![Home-2](md_images/screenshots/m3.png)
 
 ### About Page on iPhone 12 (iOS 15.1.1 browser)
 
-![About](md_images/screenshots/m4..PNG)
+![About](md_images/screenshots/m4..png)
 
 ### Classes Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Classes](md_images/screenshots/m4.PNG)
+![Classes](md_images/screenshots/m4.png)
 
 ### Classes Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Classes](md_images/screenshots/m5.PNG)
+![Classes](md_images/screenshots/m5.png)
 
 ### Contact Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Contact](md_images/screenshots/m6.PNG)
+![Contact](md_images/screenshots/m6.png)
 
 ### Contact Page on iPhone 12 (iOS 15.1.1 browser)
 
-![Contact](md_images/screenshots/m7.PNG)
+![Contact](md_images/screenshots/m7.png)
 
 [Back to Table of contents](#table-of-contents)
 
