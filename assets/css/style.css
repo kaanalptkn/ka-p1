@@ -125,7 +125,6 @@ li {
 
 #run-outer {
     height: 600px;
-    width: 120%;
     list-style: none;
     position: relative;
     margin-left: 0;
@@ -419,7 +418,7 @@ svg {
         width: 100%;
         margin-top: -10em;
         margin-left: 0;
-        margin-right: 15px;
+        margin-right: 0;
     }
 
 
